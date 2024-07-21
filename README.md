@@ -63,9 +63,6 @@ For the following parameters, i used the dual annealing algorithm to find the be
 The cognitive parameter `c1` has a big influence on the convergence of the algorithm too. It needs to be strictly positive so `1` is ok. 
 
 ![Convergence with the cognitive parameter](Img/analyse_3D.png)
-![Convergence with the cognitive parameter other point of view](Img/analyse_3D_1.png)
-
-
 
 The social parameter `c2` has a big influence on the convergence of the algorithm too. The best value for `c2` is 0.225. 
 
