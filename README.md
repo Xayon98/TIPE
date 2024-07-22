@@ -1,5 +1,5 @@
 # TIPE
-This is the repo for my TIPE project. On the theme "Sport and games".
+This is the repo for my TIPE project for the year 2023/2024. On the theme "Sport and games".
 
 So i decided to work on the optimization of the racing-line of a car on a track. And choose the PSO algorithm to do so. But in the papers on the subject, the authors never really explain how to find the ideal parameters for the PSO algorithm. So i decided to work on this subject.
 
