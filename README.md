@@ -68,7 +68,12 @@ The social parameter `c2` has a big influence on the convergence of the algorith
 
 ![Convergence with the social parameter](Img/analyse_c2.png)
 
-So that's it for the parameters. I hope you enjoyed my research. If you have any question, feel free to ask me.
+So that's it for the parameters. With those i generated this racing line for exemple :
+
+![Final Racing Line](Img/Racingline.png)
+
+
+I hope you enjoyed my research. If you have any question, feel free to ask me.
 
 ## License
 This project is under the MIT license. See [LICENSE](https://github.com/Xayon98/TIPE/LICENCE) for more information.
