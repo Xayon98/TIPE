@@ -687,8 +687,8 @@ def getLapTime(racingLine):
 	
 
 def main():
-	nbpart = 10
-	nbiter = 10
+	nbpart = 400
+	nbiter = 100
 	path = f"Data/plot_output/{time.strftime('%d-%m-%Y')}/%s/"
 	path = next_path(path)
 	w = 0.8
@@ -724,7 +724,7 @@ def main():
        """)
 
 	path="Img/"
-	track.plotTrack(centerLine=False,sectors=False,racingLine=True,nb=True,points=True)
+	# track.plotTrack(centerLine=False,sectors=False,racingLine=True,nb=True,points=True)
 	# track.saveTrack(transparent=False, path=path, sectors=True)
 	# track.saveTrack(transparent=True, path=path, sectors=True)
 	# track.saveTrack(centerLine=False, transparent=True, path=path)
@@ -732,13 +732,13 @@ def main():
  
 	
  
-	track.saveTrack(centerLine=False,sectors=False,racingLine=True,nb=True,points=True,transparent=False, path=path)
+	# track.saveTrack(centerLine=False,sectors=False,racingLine=True,nb=True,points=True,transparent=False, path=path)
 	# track.saveTrack(centerLine=False,sectors=False,racingLine=True,nb=True,points=True,transparent=True, path=path)
 	# track.saveTrack(centerLine=False,sectors=False,racingLine=True,nb=False,points=True,transparent=False, path=path)
 	
-	with open(f"{path}data.txt","w") as file:
-		file.write(str([gs_e,gs,rl]))
-		file.close()
+	# with open(f"{path}data.txt","w") as file:
+	# 	file.write(str([gs_e,gs,rl]))
+	# 	file.close()
 
 
 def main2():
